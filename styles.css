@@ -1,0 +1,42 @@
+#StyleH3	{
+	background-color: lightblue;
+	color: blue;
+	font-family: courier;
+	border: 1px solid blue;
+	margin: 30px;
+}
+
+a.StyleLink:link	{
+	color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.StyleLink:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.StyleLink:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a.StyleLink:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+table, th, td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 10px;
+}
+th {
+	text-align: left;
+}
+table {
+	border-spacing: 5px;
+}
